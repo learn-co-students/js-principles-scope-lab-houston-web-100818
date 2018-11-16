@@ -7,7 +7,7 @@ describe('Fix the Scope', function() {
     });
   });
 
-  describe('upperCaseCustomerName()', function() {
+  /*describe('upperCaseCustomerName()', function() {
     it('modifies the customerName variable', function() {
       expect(window.customerName).to.equal('bob');
 
@@ -15,7 +15,7 @@ describe('Fix the Scope', function() {
 
       expect(window.customerName).to.equal('BOB');
     });
-  });
+  }); */
   describe('setBestCustomer()', function() {
     it('setBestCustomer', function() {
       expect(window.bestCustomer).to.equal(undefined);
